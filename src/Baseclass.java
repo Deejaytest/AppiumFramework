@@ -23,6 +23,11 @@ public class Baseclass {
 		
 		AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),Cap);
 		System.out.println("git test");
+		System.out.println("branch test");
+		System.out.println("branch1 test");
+		System.out.println("branch2 test");
+
+
 		return driver;
 	}
 
